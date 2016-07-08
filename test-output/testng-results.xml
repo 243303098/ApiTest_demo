@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21449" started-at="2016-07-07T03:26:10Z" finished-at="2016-07-07T03:26:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21449" started-at="2016-07-07T03:26:10Z" finished-at="2016-07-07T03:26:32Z">
+      <class name="boc.api.test.BaseApi">
+        <test-method status="FAIL" signature="baseApi()[pri:0, instance:boc.api.test.BaseApi@7c6fcd57]" name="baseApi" duration-ms="21422" started-at="2016-07-07T11:26:10Z" finished-at="2016-07-07T11:26:32Z">
+          <exception class="java.lang.Throwable">
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable
+	at message : expected [true] but found [false] in method : .baseApi(BaseApi:51)
+	at boc.api.test.BaseApi.baseApi(BaseApi.java:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseApi -->
+      </class> <!-- boc.api.test.BaseApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
