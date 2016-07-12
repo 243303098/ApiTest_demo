@@ -3,7 +3,6 @@ package boc.api.test;
 import org.testng.annotations.Test;
 
 import boc.api.ass.Assertion;
-import boc.api.ass.Property;
 import net.sf.json.JSONObject;
 
 import java.io.IOException;

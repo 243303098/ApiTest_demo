@@ -16,7 +16,7 @@ public class Zson {
 	}
 	
 	/**
-	 * @author zhangfei
+	 * @author Administrator
 	 * @return ZsonResult
 	 * 用这种方式是线程不安全的，不建议使用
 	 */
@@ -26,7 +26,7 @@ public class Zson {
 	}
 	
 	/**
-	 * @author zhangfei
+	 * @author Administrator
 	 * @return ZsonResult
 	 * 用这种方式是线程安全的，建议使用
 	 */
