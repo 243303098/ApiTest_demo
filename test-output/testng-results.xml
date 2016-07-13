@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="876" started-at="2016-07-13T09:17:04Z" finished-at="2016-07-13T09:17:05Z">
+  <suite name="Default suite" duration-ms="907" started-at="2016-07-13T09:25:21Z" finished-at="2016-07-13T09:25:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="876" started-at="2016-07-13T09:17:04Z" finished-at="2016-07-13T09:17:05Z">
+    <test name="Default test" duration-ms="907" started-at="2016-07-13T09:25:21Z" finished-at="2016-07-13T09:25:22Z">
       <class name="api.test.demo.AccountDetails_F">
-        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@2f963c7b]" name="accountDetails" duration-ms="234" started-at="2016-07-13T17:17:05Z" data-provider="accountDetails_F" finished-at="2016-07-13T17:17:05Z">
+        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@1046128d]" name="accountDetails" duration-ms="228" started-at="2016-07-13T17:25:21Z" data-provider="accountDetails_F" finished-at="2016-07-13T17:25:21Z">
           <params>
             <param index="0">
               <value>
@@ -24,11 +24,16 @@
                 <![CDATA[0]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountDetails -->
-        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@2f963c7b]" name="accountDetails" duration-ms="605" started-at="2016-07-13T17:17:05Z" data-provider="accountDetails_F" finished-at="2016-07-13T17:17:05Z">
+        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@1046128d]" name="accountDetails" duration-ms="638" started-at="2016-07-13T17:25:21Z" data-provider="accountDetails_F" finished-at="2016-07-13T17:25:22Z">
           <params>
             <param index="0">
               <value>
@@ -43,6 +48,11 @@
             <param index="2">
               <value>
                 <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CA100146]]>
               </value>
             </param>
           </params>

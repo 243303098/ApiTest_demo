@@ -71,8 +71,8 @@ public class Data {
 	public Object[][] accountDetails_F() throws IOException {
 		return new Object[][] {
 				new Object[] { DoProperties.getValue(BaseURL.FILENAMEPATH, "Url") + BaseURL.ACCOUNTDETAILS + "?idNo=",
-						"校验总参数为空！", "0" },
+						"校验总参数为空！", "0","" },
 				new Object[] { DoProperties.getValue(BaseURL.FILENAMEPATH, "Url") + BaseURL.ACCOUNTDETAILS
-						+ "?idNo=32083019930329403", "证件号码长度非法", "0" }, };
+						+ "?idNo=32083019930329403", "证件号码长度非法", "0" ,"CA100146"}, };
 	}
 }

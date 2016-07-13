@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="api.test.demo.AccountDetails_T">
+      <class name="api.test.demo.AccountDetails_F">
         <methods>
-          <include name="accountDetails"/>
+          <include name="accountDetails" invocation-numbers="0"/>
         </methods>
-      </class> <!-- api.test.demo.AccountDetails_T -->
+      </class> <!-- api.test.demo.AccountDetails_F -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
