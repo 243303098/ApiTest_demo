@@ -56,7 +56,7 @@ public class Demo {
 		JSONObject json = DoString.StringToJson("{\"cardNbr\": \"6212461030000010862\",\"amount\": \"100\",\"deslineflag\": \"0\",\"desline\": \"红包转账\"}");
 		try {
 			content = RequestMethod
-					.getRequestRusultForPostJSon(DoProperties.getValue("D:/workspace/BOC_API/parameter.properties", "Url")
+					.getRequestRusultForPost(DoProperties.getValue("D:/workspace/BOC_API/parameter.properties", "Url")
 							+ BaseURL.REDPACKETTRASACTION, json);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

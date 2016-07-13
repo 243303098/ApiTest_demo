@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="boc.api.test.BaseApi">
+      <class name="api.test.demo.RedpacketTransaction_F">
         <methods>
-          <include name="baseApi"/>
+          <include name="redpacketTransaction"/>
         </methods>
-      </class> <!-- boc.api.test.BaseApi -->
+      </class> <!-- api.test.demo.RedpacketTransaction_F -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

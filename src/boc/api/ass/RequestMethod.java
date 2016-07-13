@@ -25,6 +25,7 @@ import net.sf.json.JSONObject;
 @Listeners({ boc.api.ass.AssertionListener.class })
 /**
  * 该类封装了post、get、put等相应的请求操作
+ * 
  * @author Administrator
  *
  */
@@ -41,7 +42,7 @@ public class RequestMethod {
 	 * @return 返回请求结果
 	 */
 	@SuppressWarnings("deprecation")
-	public static String getRequestRusultForPostJSon(String url, JSONObject parameter) {
+	public static String getRequestRusultForPost(String url, JSONObject parameter) {
 		BasicConfigurator.configure();
 		HttpClient httpClient = new HttpClient();
 		PostMethod postMethod = new PostMethod(url);
@@ -67,15 +68,16 @@ public class RequestMethod {
 		}
 		return RequestResult;
 	}
-/**
- * 
- * @param url
- * 				请求的地址
- * @param params
- * 					Map类型的参数
- * @return	返回请求结果
- */
-	public static String getRequestRusultForPostMap(String url, Map<String, String> params) {
+
+	/**
+	 * 
+	 * @param url
+	 *            请求的地址
+	 * @param params
+	 *            Map类型的参数
+	 * @return 返回请求结果
+	 */
+	public static String getRequestRusultForPost(String url, Map<String, String> params) {
 		BasicConfigurator.configure();
 		HttpClient httpClient = new HttpClient();
 		PostMethod postMethod = new PostMethod(url);
@@ -107,8 +109,7 @@ public class RequestMethod {
 		}
 		return RequestResult;
 	}
-	
-	
+
 	/**
 	 * 
 	 * @param url
