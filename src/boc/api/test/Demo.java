@@ -54,14 +54,10 @@ public class Demo {
 		System.out.println(zr3.getResult());
 		System.out.println(zr3.getList("/a"));
 		JSONObject json = DoString.StringToJson("{\"cardNbr\": \"6212461030000010862\",\"amount\": \"100\",\"deslineflag\": \"0\",\"desline\": \"红包转账\"}");
-		try {
 			content = RequestMethod
 					.getRequestRusultForPost(DoProperties.getValue("D:/workspace/BOC_API/parameter.properties", "Url")
 							+ BaseURL.REDPACKETTRASACTION, json);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		ZsonResult zResult = z.parseJson(content);
 		logger.info(zResult.getString("/responseCode"));
 	}

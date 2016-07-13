@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1019" started-at="2016-07-13T08:28:12Z" finished-at="2016-07-13T08:28:13Z">
+  <suite name="Default suite" duration-ms="876" started-at="2016-07-13T09:17:04Z" finished-at="2016-07-13T09:17:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1019" started-at="2016-07-13T08:28:12Z" finished-at="2016-07-13T08:28:13Z">
-      <class name="api.test.demo.RedpacketTransaction_F">
-        <test-method status="PASS" signature="redpacketTransaction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.RedpacketTransaction_F@23c4cc78]" name="redpacketTransaction" duration-ms="609" started-at="2016-07-13T16:28:12Z" data-provider="redpacketTransaction_F_Data" finished-at="2016-07-13T16:28:12Z">
+    <test name="Default test" duration-ms="876" started-at="2016-07-13T09:17:04Z" finished-at="2016-07-13T09:17:05Z">
+      <class name="api.test.demo.AccountDetails_F">
+        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@2f963c7b]" name="accountDetails" duration-ms="234" started-at="2016-07-13T17:17:05Z" data-provider="accountDetails_F" finished-at="2016-07-13T17:17:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"cardNbr": "62124610300000108622","amount": "100","deslineflag": "0","desline": "红包转账"}]]>
+                <![CDATA[http://192.168.23.39:9656/api/newboc/v1/p2p/account/accountDetails?idNo=]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[JX110003]]>
+                <![CDATA[校验总参数为空！]]>
               </value>
             </param>
             <param index="2">
@@ -27,17 +27,17 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- redpacketTransaction -->
-        <test-method status="PASS" signature="redpacketTransaction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.RedpacketTransaction_F@23c4cc78]" name="redpacketTransaction" duration-ms="283" started-at="2016-07-13T16:28:12Z" data-provider="redpacketTransaction_F_Data" finished-at="2016-07-13T16:28:13Z">
+        </test-method> <!-- accountDetails -->
+        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@2f963c7b]" name="accountDetails" duration-ms="605" started-at="2016-07-13T17:17:05Z" data-provider="accountDetails_F" finished-at="2016-07-13T17:17:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"cardNbr": "6212461030000010862","amount": "-100","deslineflag": "0","desline": "红包转账"}]]>
+                <![CDATA[http://192.168.23.39:9656/api/newboc/v1/p2p/account/accountDetails?idNo=32083019930329403]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[JX110005]]>
+                <![CDATA[证件号码长度非法]]>
               </value>
             </param>
             <param index="2">
@@ -48,50 +48,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- redpacketTransaction -->
-        <test-method status="PASS" signature="redpacketTransaction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.RedpacketTransaction_F@23c4cc78]" name="redpacketTransaction" duration-ms="24" started-at="2016-07-13T16:28:13Z" data-provider="redpacketTransaction_F_Data" finished-at="2016-07-13T16:28:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{"cardNbr": "","amount": "100","deslineflag": "0","desline": "红包转账"}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[参数不正确]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- redpacketTransaction -->
-        <test-method status="PASS" signature="redpacketTransaction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.RedpacketTransaction_F@23c4cc78]" name="redpacketTransaction" duration-ms="56" started-at="2016-07-13T16:28:13Z" data-provider="redpacketTransaction_F_Data" finished-at="2016-07-13T16:28:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{"cardNbr": "6212461030000010862","amount": "","deslineflag": "0","desline": "红包转账"}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[参数不正确]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- redpacketTransaction -->
-      </class> <!-- api.test.demo.RedpacketTransaction_F -->
+        </test-method> <!-- accountDetails -->
+      </class> <!-- api.test.demo.AccountDetails_F -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

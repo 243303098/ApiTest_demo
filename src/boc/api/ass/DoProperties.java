@@ -18,7 +18,7 @@ public class DoProperties {
 	 * @return key对应的value
 	 * @throws IOException
 	 */
-	public static String getValue(String fileNamePath, String key) throws IOException {
+	public static String getValue(String fileNamePath, String key) {
 		Properties props = new Properties();
 		InputStream in = null;
 		try {
@@ -32,7 +32,12 @@ public class DoProperties {
 			return null;
 		} finally {
 			if (null != in)
-				in.close();
+				try {
+					in.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 		}
 	}
 
