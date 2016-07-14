@@ -32,7 +32,7 @@ public class Demo {
 		BasicConfigurator.configure();
 		logger.info("开始解析json");
 		ZsonResult zr1 = z.parseJson(s1);
-		System.out.println(zr1.getValue("/*[1]/firstName"));
+		System.out.println(zr1.getValue("/*[0]/firstName"));
 		logger.info("获取data中的值");
 		System.out.println(zr1.getMap("/*[1]"));
 

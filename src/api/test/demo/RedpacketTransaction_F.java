@@ -22,7 +22,6 @@ import boc.api.ass.RequestMethod;
 
 @Listeners({ boc.api.ass.AssertionListener.class })
 public class RedpacketTransaction_F extends Data {
-	static Logger logger = Logger.getLogger(RedpacketTransaction_T.class);
 	String result;
 
 	/**

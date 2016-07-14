@@ -21,7 +21,6 @@ import org.testng.annotations.Listeners;
 
 @Listeners({ boc.api.ass.AssertionListener.class })
 public class RedpacketTransaction_T extends Data {
-	static Logger logger = Logger.getLogger(RedpacketTransaction_T.class);
 	String request;
 
 	/**

@@ -13,9 +13,13 @@ import boc.api.ass.RequestMethod;
 
 @Listeners({ boc.api.ass.AssertionListener.class })
 public class AccountDetails_T extends Data {
-	static Logger logger = Logger.getLogger(AccountDetails_T.class);
 	String request;
-
+	/**
+	 * 按证件号查询持卡人电子账户号--参数合法
+	 * @param url
+	 * @param cardnbr
+	 * @param responseCode
+	 */
 	@Test(dataProvider = "accountDetails_T")
 	public void accountDetails(String url, String cardnbr, String responseCode) {
 		request = RequestMethod.getRequestRusultForGet(url);
