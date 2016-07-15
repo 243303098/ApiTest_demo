@@ -10,8 +10,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.zf.zson.Zson;
-import com.zf.zson.ZsonResult;
+import boc.api.ass.Zson;
+import boc.api.ass.ZsonResult;
 
 import api.test.data.Data;
 import boc.api.ass.Assertion;

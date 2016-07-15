@@ -149,13 +149,13 @@ public class RequestMethod {
 	 * @return 返回请求结果
 	 */
 	@SuppressWarnings("deprecation")
-	public static String getRequestRusultForPutJson(String url, String parameter) {
+	public static String getRequestRusultForPutJson(String url, JSONObject parameter) {
 		BasicConfigurator.configure();
 		HttpClient httpClient = new HttpClient();
 		PutMethod putMethod = new PutMethod(url);
 		// 设置请求的头信息级参数
 		putMethod.setRequestHeader("Content-Type", "application/json");
-		putMethod.setRequestBody(parameter);
+		putMethod.setRequestBody(parameter.toString());
 		// 判断请求返回的状态是否为200
 		try {
 			int Status = httpClient.executeMethod(putMethod);

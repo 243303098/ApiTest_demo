@@ -10,4 +10,8 @@ public class BaseURL {
 	public static final String NEWACCOUNT = "api/newboc/v1/p2p/account/newaccount";
 	//按手机号查询电子帐号信息
 	public static final String ACCOUNTINFOS = "api/newboc/v1/p2p/account/accountInfos";
+	//存管平台电子账户签约卡绑定
+	public static final String BINCARD = "api/newboc/v1/p2p/account/bindcard";
+	//存管平台电子账户签约卡取消绑定
+	public static final String UNBINCARD = "api/newboc/v1/p2p/account/unbindcard";
 }

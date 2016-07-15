@@ -2,37 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1166" started-at="2016-07-14T10:02:57Z" finished-at="2016-07-14T10:02:58Z">
+  <suite name="Default suite" duration-ms="60494" started-at="2016-07-15T04:09:54Z" finished-at="2016-07-15T04:10:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1166" started-at="2016-07-14T10:02:57Z" finished-at="2016-07-14T10:02:58Z">
-      <class name="api.test.demo.AccountInfos_F">
-        <test-method status="PASS" signature="accountInfos(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountInfos_F@15ee86f2]" name="accountInfos" duration-ms="1093" started-at="2016-07-14T18:02:57Z" data-provider="accountInfos_F_data" finished-at="2016-07-14T18:02:58Z">
+    <test name="Default test" duration-ms="60494" started-at="2016-07-15T04:09:54Z" finished-at="2016-07-15T04:10:54Z">
+      <class name="api.test.demo.AccountDetails_F">
+        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@1d5a8fff]" name="accountDetails" duration-ms="202" started-at="2016-07-15T12:09:54Z" data-provider="accountDetails_F" finished-at="2016-07-15T12:09:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[?phone=1522152794]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[此号码无电子账号信息]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- accountInfos -->
-        <test-method status="PASS" signature="accountInfos(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountInfos_F@15ee86f2]" name="accountInfos" duration-ms="32" started-at="2016-07-14T18:02:58Z" data-provider="accountInfos_F_data" finished-at="2016-07-14T18:02:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[?phone=]]>
+                <![CDATA[http://192.168.23.39:9656/api/newboc/v1/p2p/account/accountDetails?idNo=]]>
               </value>
             </param>
             <param index="1">
@@ -45,11 +24,42 @@
                 <![CDATA[0]]>
               </value>
             </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- accountInfos -->
-      </class> <!-- api.test.demo.AccountInfos_F -->
+        </test-method> <!-- accountDetails -->
+        <test-method status="PASS" signature="accountDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:api.test.demo.AccountDetails_F@1d5a8fff]" name="accountDetails" duration-ms="60260" started-at="2016-07-15T12:09:54Z" data-provider="accountDetails_F" finished-at="2016-07-15T12:10:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.23.39:9656/api/newboc/v1/p2p/account/accountDetails?idNo=32083019930329403]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[证件号码长度非法]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CA100146]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountDetails -->
+      </class> <!-- api.test.demo.AccountDetails_F -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
